@@ -61,8 +61,9 @@ void update_menu(){
 void main(){
     int choice;
     reload_data();
+    printf("***HOTEL MANAGEMENT SYSTEM***\n");
     do{
-        printf("Enter the choice: 0-exit, 1-add, 2-delete, 3-view, 4-list.\n");
+        printf("Enter the choice: 0-exit, 1-add, 2-delete, 3-view\n");
         scanf("%d", &choice);
         switch (choice)
         {
@@ -99,9 +100,9 @@ void main(){
                 view_menu();
                 break;
             }
-            case 4:{
-                printf("View valid dishes list.\n");
-            }
+            // case 4:{
+            //     printf("View valid dishes list.\n");
+            // }
             default:{
                 printf("Exit menu!!!\n");
                 break;
