@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/syamilisn/Github/Dev_C/C_2025/output/mem'
+relocations:     []
+...
